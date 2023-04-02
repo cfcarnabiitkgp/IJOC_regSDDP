@@ -8,18 +8,18 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 
 Please cite the paper using its DOI and the software itself, using the following DOI.
 
-[![DOI](https://zenodo.org/badge/591213054.svg)](https://zenodo.org/badge/latestdoi/591213054)
+# [![DOI](https://zenodo.org/badge/591213054.svg)](https://zenodo.org/badge/latestdoi/591213054)
 
 Below is the BibTex for citing this version of the code.
 
 ```
-@article{Xiao2023Black,
-  author =        {J. Xiao, Y.H. Tian, Y.L. Jia, X.Y. Jiang, L.A. Yu, and S.Y. Wang},
+@article{Bhattacharya2023,
+  author =        {},
   publisher =     {INFORMS Journal on Computing},
-  title =         {Black-box attack-based security evaluation framework for credit card fraud detection models, v2021.0076},
+  title =         {A Nonconvex Regularization Scheme for the Stochastic Dual Dynamic Programming Algorithm},
   year =          {2023},
-  doi =           {10.5281/zenodo.7631457},
-  url =           {https://github.com/INFORMSJoC/2021.0076},
+  doi =           {},
+  url =           {},
 }  
 ```
 
@@ -28,11 +28,10 @@ Below is the BibTex for citing this version of the code.
 
 
 This project contains four folders: `data`, `results`, `src`, `scripts`. 
-- `data`：include two datasets used in the paper and a toy dataset for debugging.
+- `data`：.
 - `results`: include the experimental results.  
 - `src`: include the source code. 
-- `scripts`: include two scripts for evaluating the security of machine learning models based on substitute models LR and SVM.  
-
+-
 ## Setup
 ### Install dependencies
 - To run the code, you will need to make sure that you have already installed Anaconda3.  
@@ -41,20 +40,10 @@ This project contains four folders: `data`, `results`, `src`, `scripts`.
 pip install -r requirements.txt
 ```
 
-### Preparing the datasets
-- The cleaning process of the Lending club credit dataset is described in subsection 3.1 of the paper, and the cleaned dataset can be obtained by extracting the zip file in the data folder.  
-
-- Download Vesta credit dataset from https://www.kaggle.com/competitions/ieee-fraud-detection/data, and run `feature_engineering.py` to perform feature engineering.  
-
-- A toy dataset is also provided for quick start.
 
 
 
 
 
 ## Replicating
-First, put the processed dataset into `src` folder;  
 
-Second, run `main.py` to get the accuracy of the target models under different attack strengths and save it. We provide a variety of semi-supervised methods that can be used directly, including self-training, Co-Forest, semi-supervised GAN. The FlexMatch implementation uses the project https://github.com/TorchSSL/TorchSSL.  
-
-Finally, run `calculateSEI.py` to calculate the SEI index.
