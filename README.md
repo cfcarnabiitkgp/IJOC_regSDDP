@@ -6,9 +6,8 @@ Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](
 
 ## Cite
 
-Please cite the paper using its DOI and the software itself, using the following DOI.
+Please cite the paper using its DOI and the software itself, using the following DOI:
 
-# [![DOI](https://zenodo.org/badge/591213054.svg)](https://zenodo.org/badge/latestdoi/591213054)
 
 Below is the BibTex for citing this version of the code.
 
@@ -27,11 +26,11 @@ Below is the BibTex for citing this version of the code.
 ## Description
 
 
-This project contains four folders: `data`, `results`, `src`, `scripts`. 
+This project contains the following folders: `data`, `results`, `src`. 
 - `data`：.
 - `results`: include the experimental results.  
 - `src`: include the source code. 
--
+
 ## Setup
 ### Install dependencies
 - To run the code, you will need to make sure that you have already installed Anaconda3.  
