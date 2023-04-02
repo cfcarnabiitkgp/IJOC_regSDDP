@@ -1,12 +1,12 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# Black-box attack-based security evaluation framework for credit card fraud detection models
+# A Nonconvex Regularization Scheme for the Stochastic Dual Dynamic Programming Algorithm
 This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [MIT License](LICENSE).
 
 ## Cite
 
-To cite this software, please cite the paper using its DOI and the software itself, using the following DOI.
+Please cite the paper using its DOI and the software itself, using the following DOI.
 
 [![DOI](https://zenodo.org/badge/591213054.svg)](https://zenodo.org/badge/latestdoi/591213054)
 
@@ -25,7 +25,7 @@ Below is the BibTex for citing this version of the code.
 
 
 ## Description
-The security of credit card fraud detection (CCFD) models based on machine learning is important but rarely considered in the existing research. To this end, we propose a black-box attack-based security evaluation framework for CCFD models. Under this framework, the semi-supervised learning technique and transfer-based black-box attack are combined to construct two versions of semi-supervised transfer black-box attack (STBA) algorithm. Moreover, we introduce a new nonlinear optimization model to generate the adversarial examples against CCFD models and a security evaluation index to quantitatively evaluate the security of them. 
+
 
 This project contains four folders: `data`, `results`, `src`, `scripts`. 
 - `data`：include two datasets used in the paper and a toy dataset for debugging.
